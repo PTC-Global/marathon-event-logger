@@ -1,0 +1,2 @@
+#marathon==0.8.14
+-e git+https://github.com/bergerx/marathon-python.git#egg=Package

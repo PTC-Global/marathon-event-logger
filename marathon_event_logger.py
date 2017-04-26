@@ -14,5 +14,5 @@ c = MarathonClient(
         password=PASSWORD,
         auth_token=AUTH_TOKEN)
 
-for event in c.event_stream():
-    print event.to_json()
+for event in c.event_stream(raw=True):
+    print event

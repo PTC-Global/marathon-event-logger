@@ -15,4 +15,4 @@ c = MarathonClient(
         auth_token=AUTH_TOKEN)
 
 for event in c.event_stream(raw=True):
-    print event
+    print event.strip()

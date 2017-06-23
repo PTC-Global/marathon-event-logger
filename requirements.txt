@@ -1,2 +1,1 @@
-#marathon==??? get rid of the below record once https://github.com/thefactory/marathon-python/pull/198 is released to pip.
--e git+https://github.com/thefactory/marathon-python.git#egg=Package
+marathon==0.9.0
